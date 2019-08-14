@@ -45,7 +45,7 @@ void maintaskWork(void){
 
 
 		current_value = (n*f/k);
-//		current_value = 4.9348 * current_value + 32.651;
+//		current_value = 4.9348 * current_value + 32.651; //some cmnt
 
 		if(experiment_state == 1){
 
@@ -103,7 +103,7 @@ int main(void){
 
 	initHX711drv();
 
-	uint16_t i = 0;
+	uint16_t i = 1;
 	while (1){
 		updateScreen();
 		i++;
