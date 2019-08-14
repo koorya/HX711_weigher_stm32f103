@@ -1,0 +1,8 @@
+/*
+!/src
+!/Debug
+/Debug/*
+!/Debug/*.hex
+!/Libraries
+!.gitignore
+
