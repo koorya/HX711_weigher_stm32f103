@@ -6,3 +6,4 @@
 !/Libraries
 !.gitignore
 #some comment (additional)
+!License.txt
