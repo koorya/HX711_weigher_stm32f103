@@ -19,9 +19,9 @@ volatile double max_value_in_experiment = 0;
 volatile double current_value = 0;
 volatile uint8_t experiment_state = 0;
 
-volatile double tenzoconst_k = 2.0000;
+volatile double tenzoconst_k = 2.0286;
 volatile double tenzoconst_nom = 100.0;
-volatile int32_t tenzo_zero_ofset = 95859;
+volatile int32_t tenzo_zero_ofset = 29526;
 
 void userExperimentClick(void){
 	if(experiment_state == 1){
