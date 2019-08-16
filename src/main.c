@@ -45,7 +45,7 @@ void maintaskWork(void){
 
 
 		current_value = (n*f/k);
-//		current_value = 4.9348 * current_value + 32.651; //some cmnt
+		current_value = 5.104 * current_value + 31.685; //фомич посчитал
 
 		if(experiment_state == 1){
 
